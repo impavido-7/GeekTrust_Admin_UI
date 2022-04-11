@@ -1,0 +1,106 @@
+.table {
+    width: 80vw;
+    margin:auto;
+    height: 80vh;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+.table tr {
+    border-bottom: 1px solid black;
+    text-align: left;
+    height: 10%;
+}
+
+.table th {
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.table tbody {
+    font-weight: 100;
+}
+
+.table td {
+    max-width: 100%;
+    padding: 10px;
+    word-wrap: break-word;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+.delete {
+    color: red;
+    margin-left: 10px;
+}
+
+.deleteSelectedButton {
+    margin-right: auto;
+    margin-left: 10vw;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.spacer {
+    margin: 10px;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.selectedRow {
+    background-color: silver;
+}
+
+.noresults {
+    line-height: 500px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80vw;
+    margin: auto;
+}
+
+.makeCircleBorder {
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 10px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.pageSelected {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.makeContentCenter {
+    text-align: center;
+}
+
+.disabled {
+    background-color: whitesmoke;
+    color: slategrey;
+    border: 2px solid slategrey;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.filter {
+    width: 80vw;
+    margin:auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 15px;
+}
